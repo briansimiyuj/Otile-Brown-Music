@@ -95,6 +95,8 @@ nav{
     padding: 10px 10px 10px 150px;
     background-color: green;
     border-radius: 15px 15px 0 0;
+    transform: translateY(0);
+    opacity: 0;
 }
 
 .progress-container{
@@ -103,6 +105,7 @@ nav{
     height: 4px;
     margin: 10px 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .progress{
