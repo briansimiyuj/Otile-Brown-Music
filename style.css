@@ -34,3 +34,19 @@ header{
     position: relative;
     margin: 20px 400px;
 }
+
+.img-container{
+    width: 110px;
+    position: relative;
+}
+
+.img-container::after{
+    content: '';
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
+}
