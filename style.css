@@ -60,6 +60,7 @@ header{
     position: absolute;
     bottom: 0;
     animation: rotate 3s linear infinite;
+    animation-play-state: paused;
 }
 
 nav{
