@@ -19,3 +19,37 @@ const musicContainer = document.querySelector('.music-container'),
 
 
 const songs = ['Dusuma', 'Jamila', 'This Kind', 'The Way', 'In Love']    
+
+
+
+let songIndex = 0
+
+
+const loadSong = (song) =>{
+
+       title.innerText = song
+
+       audio.src = `Music/${song}.mp3`
+
+       cover.src= `IMG/${song}.jpg` 
+
+}
+
+loadSong(songs[songIndex])
+
+
+
+
+const playSong = () =>{
+
+    musicContainer.classList.add("play")
+
+    playBtn.querySelector('i.fas').classList.remove('fa-play')
+
+    playBtn.querySelector('i.fas').classList.add('fa-pause')
+
+    audio.play()
+
+}
+
+playSong()
