@@ -59,6 +59,7 @@ header{
     object-fit: cover;
     position: absolute;
     bottom: 0;
+    animation: rotate 3s linear infinite;
 }
 
 nav{
@@ -113,4 +114,19 @@ nav{
     height: 100%;
     background: red;
     border-radius: 5px;  
+}
+
+
+
+
+@keyframes rotate{
+    
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+
 }
