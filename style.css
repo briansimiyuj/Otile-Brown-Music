@@ -60,3 +60,28 @@ header{
     position: absolute;
     bottom: 0;
 }
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn{
+    background-color: #fff;
+    border: 0;
+    color: #dfdbdf;  
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.action-btn-big{
+    color: #cdc2d0;
+    font-size: 1.5rem;
+}
+
+.action-btn:focus{
+    outline: none;
+}
