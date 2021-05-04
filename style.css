@@ -25,3 +25,12 @@ header{
     height: 100px;
     margin: 1rem;
 }
+
+.music-container{
+    background-color: #fff;
+    border-radius: 15px;    
+    display: flex;
+    padding: 20px 30px;
+    position: relative;
+    margin: 20px 400px;
+}
