@@ -17,4 +17,5 @@ const musicContainer = document.querySelector('.music-container'),
     cover = document.querySelector(".img-container img")
 
 
-console.log(musicContainer, playBtn, prevBtn, nextBtn, audio, progress, progressContainer, title, cover)     
+
+const songs = ['Dusuma', 'Jamila', 'This Kind', 'The Way', 'In Love']    
