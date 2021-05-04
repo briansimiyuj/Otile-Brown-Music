@@ -44,14 +44,21 @@ const playSong = () =>{
 
     musicContainer.classList.add("play")
 
-    playBtn.querySelector('i.fas').classList.remove('fa-play')
+    playBtn.classList.remove('fa-play')
 
-    playBtn.querySelector('i.fas').classList.add('fa-pause')
+    playBtn.classList.add('fa-pause')
     
     audio.play()
-    
+
     console.log('working')
 
 }
 
-playSong()
+
+
+
+playBtn.addEventListener("click", () =>{
+
+   playSong()
+
+})
