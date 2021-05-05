@@ -103,6 +103,12 @@ nav{
     border-radius: 15px 15px 0 0;
     transform: translateY(0);
     opacity: 0;
+    transition: transform .5s, opacity .8s;
+}
+
+.music-container.play .music-info{
+    transform: translateY(-100px);
+    opacity: 1;
 }
 
 .progress-container{
