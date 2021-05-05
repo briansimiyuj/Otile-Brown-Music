@@ -50,15 +50,41 @@ const playSong = () =>{
     
     audio.play()
 
-    console.log('working')
+}
+
+
+
+
+
+const pauseSong = () =>{
+
+    musicContainer.classList.remove("play")
+
+    audio.pause()
 
 }
 
 
 
 
+
+
 playBtn.addEventListener("click", () =>{
 
-   playSong()
+    const playing = musicContainer.classList.contains("play")
+
+    if (!playing){
+
+        playSong()
+           
+        console.log('working')
+    
+       } else {
+    
+        pauseSong()
+    
+        console.log('perfect')
+           
+       }
 
 })
