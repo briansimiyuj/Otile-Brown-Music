@@ -107,9 +107,6 @@ const nextSong = () =>{
 
        playSong()
 
-
-       console.log('working')
-
 }
 
 
@@ -117,5 +114,40 @@ const nextSong = () =>{
 nextBtn.addEventListener("click", () =>{
 
     nextSong()
+
+})
+
+
+
+
+
+const prevSong = () =>{
+
+    songIndex--
+
+    if (songIndex < 0) {
+           
+           songIndex = songs.length - 1
+
+    }
+
+
+    loadSong(songs[songIndex])
+
+
+    playSong()
+
+
+    console.log('working')
+
+
+}
+
+
+
+
+prevBtn.addEventListener("click", () =>{
+
+    prevSong()
 
 })
