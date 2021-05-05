@@ -76,15 +76,46 @@ playBtn.addEventListener("click", () =>{
     if (!playing){
 
         playSong()
-           
-        console.log('working')
     
        } else {
     
         pauseSong()
-    
-        console.log('perfect')
            
        }
+
+})
+
+
+
+
+
+
+
+const nextSong = () =>{
+
+       songIndex++
+
+       if(songIndex > songs.length - 1){
+           
+        songIndex = 0
+
+       }
+
+
+       loadSong(songs[songIndex])
+
+
+       playSong()
+
+
+       console.log('working')
+
+}
+
+
+
+nextBtn.addEventListener("click", () =>{
+
+    nextSong()
 
 })
