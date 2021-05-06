@@ -199,7 +199,9 @@ progressContainer.addEventListener("click", setProgress)
 
 const updateProgress = (e) =>{
 
-    console.log(e.srcElement.currentTime)
+    const {duration, currentTime} = e.srcElement
+
+    console.log(duration, currentTime)
 
 }
 
