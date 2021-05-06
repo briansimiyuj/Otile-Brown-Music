@@ -175,9 +175,11 @@ prevBtn.addEventListener("click", () =>{
 
 
 
-const setProgress = (e) =>{
+function setProgress(e){
 
-    console.log(e)       
+    const width = this.clientWidth
+
+    console.log(width)
 
 }
 
