@@ -153,8 +153,6 @@ const prevSong = () =>{
                
             playSong()
 
-            console.log('working')
-
            }, 1000)
                      
        } 
