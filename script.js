@@ -179,7 +179,9 @@ function setProgress(e){
 
     const width = this.clientWidth
 
-    console.log(width)
+    const clickX = e.offsetX
+
+    console.log(clickX)
 
 }
 
