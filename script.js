@@ -181,7 +181,9 @@ function setProgress(e){
 
     const clickX = e.offsetX
 
-    console.log(clickX)
+    const duration = audio.duration
+
+    console.log(duration)
 
 }
 
