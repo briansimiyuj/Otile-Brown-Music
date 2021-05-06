@@ -105,7 +105,21 @@ const nextSong = () =>{
        loadSong(songs[songIndex])
 
 
-       playSong()
+       if (musicContainer.classList.contains("play")){
+
+        musicContainer.classList.remove("play")
+
+           setTimeout(() => {
+               
+            playSong()
+
+            console.log('working')
+
+           }, 1000)
+
+           
+           
+       } 
 
 }
 
@@ -136,9 +150,6 @@ const prevSong = () =>{
 
 
     playSong()
-
-
-    console.log('working')
 
 
 }
