@@ -183,9 +183,9 @@ function setProgress(e){
 
     const duration = audio.duration
 
-    let audioCurrentTime = audio.currentTime
+    audio.currentTime = (clickX / width) * duration
 
-    audioCurrentTime = (clickX / width) * duration
+    console.log(audio.currentTime)
 
 }
 
