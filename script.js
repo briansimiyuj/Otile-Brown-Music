@@ -209,3 +209,15 @@ const updateProgress = (e) =>{
 
 
 audio.addEventListener("timeupdate", updateProgress)
+
+
+
+
+
+audio.addEventListener("ended", () =>{
+
+    nextSong()
+
+    console.log('working')
+
+})
