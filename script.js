@@ -167,3 +167,21 @@ prevBtn.addEventListener("click", () =>{
     prevSong()
 
 })
+
+
+
+
+
+
+
+
+const setProgress = (e) =>{
+
+    console.log(e)       
+
+}
+
+
+
+
+progressContainer.addEventListener("click", setProgress)
