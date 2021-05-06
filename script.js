@@ -203,7 +203,7 @@ const updateProgress = (e) =>{
 
     const progressPercent = (currentTime / duration) * 100
 
-    console.log(progressPercent)
+    progress.style.width = `${progressPercent}%`
 
 }
 
