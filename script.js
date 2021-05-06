@@ -201,7 +201,9 @@ const updateProgress = (e) =>{
 
     const {duration, currentTime} = e.srcElement
 
-    console.log(duration, currentTime)
+    const progressPercent = (currentTime / duration) * 100
+
+    console.log(progressPercent)
 
 }
 
