@@ -187,11 +187,21 @@ function setProgress(e){
 
     audioCurrentTime = (clickX / width) * duration
 
-    console.log(audioCurrentTime)
-
 }
 
 
 
 
 progressContainer.addEventListener("click", setProgress)
+
+
+
+
+const updateProgress = (e) =>{
+
+    console.log(e.srcElement.duration)
+
+}
+
+
+audio.addEventListener("timeupdate", updateProgress)
