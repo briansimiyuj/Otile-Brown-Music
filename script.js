@@ -275,11 +275,9 @@ const createList = () =>{
                              
             }
        
-            console.log('working')
-       
        })
 
-       }      
+    }      
 
 
 }

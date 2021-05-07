@@ -9,7 +9,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: column;
     position: relative;
 }
@@ -168,5 +168,31 @@ li{
     to{
         transform: rotate(360deg);
     }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width: 992px){
+
+    .music-list{
+        position: initial;  
+        right: initial;
+        margin-top: 7rem;
+    }
+
+    .music-container{
+        margin-top: 35rem;
+    }
+
 
 }
