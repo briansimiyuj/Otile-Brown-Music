@@ -242,8 +242,6 @@ const createList = () =>{
 
        body.appendChild(musicList)
 
-       console.log('working')
-
 }
 
 createList()
