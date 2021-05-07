@@ -137,13 +137,26 @@ nav{
 
 .music-list{
     width: 300px;
-    height: 400px;  
+    height: auto; 
     background: red;
     position: absolute;
     right: 3rem;
 }
 
+ul{
+    list-style: none;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
 
+li{
+    margin: 2rem 0;
+    padding: 1rem 0;
+    background: green;
+    width: 100%;
+    cursor: pointer;
+}
 
 
 @keyframes rotate{
