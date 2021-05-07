@@ -240,7 +240,9 @@ const createList = () =>{
 
        musicList.className = "music-list"
 
-       console.log(musicList)
+       body.appendChild(musicList)
+
+       console.log('working')
 
 }
 
