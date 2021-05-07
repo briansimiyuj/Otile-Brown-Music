@@ -242,6 +242,19 @@ const createList = () =>{
 
        body.appendChild(musicList)
 
+       const list = document.createElement("ul")
+
+       for (let u = 0; u < songs.length; u++) {
+       
+        const listItems = document.createElement("li")
+        
+        musicList.appendChild(listItems)
+           
+        console.log(listItems)
+
+       }
+
+
 }
 
 createList()
