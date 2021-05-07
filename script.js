@@ -254,7 +254,18 @@ const createList = () =>{
 
         listItems.innerText = songs[u]
 
-       }
+
+        
+
+        listItems.addEventListener("dblclick", () =>{
+
+            loadSong(songs[u])
+       
+            console.log('working')
+       
+       })
+
+       }      
 
 
 }
