@@ -196,3 +196,12 @@ li{
 
 
 }
+
+
+@media(max-width: 460px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+}
