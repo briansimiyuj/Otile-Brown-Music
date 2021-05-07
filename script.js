@@ -247,12 +247,12 @@ const createList = () =>{
        for (let u = 0; u < songs.length; u++) {
        
         const listItems = document.createElement("li")
+
+        list.appendChild(listItems)
         
-        musicList.appendChild(listItems)
+        musicList.appendChild(list)
 
         listItems.innerText = songs[u]
-           
-        console.log(listItems)
 
        }
 
