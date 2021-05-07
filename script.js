@@ -238,6 +238,8 @@ const createList = () =>{
 
        const musicList = document.createElement("div")
 
+       musicList.className = "music-list"
+
        console.log(musicList)
 
 }
