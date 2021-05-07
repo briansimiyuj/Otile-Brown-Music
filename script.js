@@ -226,3 +226,20 @@ audio.addEventListener("ended", () =>{
     nextSong()
 
 })
+
+
+
+
+
+
+
+
+const createList = () =>{
+
+       const musicList = document.createElement("div")
+
+       console.log(musicList)
+
+}
+
+createList()
