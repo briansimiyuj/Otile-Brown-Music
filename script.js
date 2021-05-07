@@ -260,6 +260,20 @@ const createList = () =>{
         listItems.addEventListener("dblclick", () =>{
 
             loadSong(songs[u])
+
+            playSong()
+
+            if (musicContainer.classList.contains("play")){
+
+                musicContainer.classList.remove("play")
+        
+                   setTimeout(() => {
+                       
+                    playSong()
+        
+                   }, 1000)
+                             
+            }
        
             console.log('working')
        
