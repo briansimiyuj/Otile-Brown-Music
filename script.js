@@ -249,6 +249,8 @@ const createList = () =>{
         const listItems = document.createElement("li")
         
         musicList.appendChild(listItems)
+
+        listItems.innerText = songs[u]
            
         console.log(listItems)
 
