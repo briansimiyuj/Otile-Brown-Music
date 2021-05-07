@@ -101,14 +101,14 @@ nav{
     padding: 10px 10px 10px 150px;
     background-color: green;
     border-radius: 15px 15px 0 0;
-    transform: translateY(-100px);
-    /* opacity: 0; */
+    transform: translateY(0);
+    opacity: 0;
     transition: transform .5s, opacity .8s;
 }
 
 .music-container.play .music-info{
     transform: translateY(-100px);
-    /* opacity: 1; */
+    opacity: 1;
 }
 
 .progress-container{
