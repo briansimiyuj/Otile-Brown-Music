@@ -42,8 +42,6 @@ const loadSong = (song) =>{
 
        body.style.backgroundPosition = 'center'
            
-        body.style.transition = 'background 5s'
-
 }
 
 loadSong(songs[songIndex])
