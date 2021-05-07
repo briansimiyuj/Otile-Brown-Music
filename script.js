@@ -18,7 +18,6 @@ const musicContainer = document.querySelector('.music-container'),
 
     body = document.querySelector("body")
 
-console.log(body)
 
 
 
@@ -35,7 +34,15 @@ const loadSong = (song) =>{
 
        audio.src = `Music/${song}.mp3`
 
-       cover.src= `IMG/${song}.jpg` 
+       cover.src = `IMG/${song}.jpg` 
+
+       body.style.background = `url('IMG/${song}.jpg')`
+
+       body.style.backgroundSize = 'cover'
+
+       body.style.backgroundPosition = 'center'
+           
+        body.style.transition = 'background 5s'
 
 }
 
