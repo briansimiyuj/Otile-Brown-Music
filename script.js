@@ -14,7 +14,11 @@ const musicContainer = document.querySelector('.music-container'),
 
     title = document.querySelector("#title"),
 
-    cover = document.querySelector(".img-container img")
+    cover = document.querySelector(".img-container img"),
+
+    body = document.querySelector("body")
+
+console.log(body)
 
 
 
